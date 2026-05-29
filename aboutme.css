@@ -1,0 +1,172 @@
+body {
+    width: 965px;
+    margin: 0;
+    background: yellow;
+    color: black;
+    font-family: "휴먼편지체", "Malgun Gothic", cursive;
+}
+
+header {
+    height: 137px;
+    background: yellow;
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 4px;
+    color: brown;
+    text-align: center;
+    font: bold 32px "Malgun Gothic", sans-serif;
+}
+
+header p {
+    margin: 22px 0 0 20px;
+    line-height: 1.45;
+}
+
+section {
+    display: flex;
+    background: lightblue;
+}
+
+nav {
+    width: 192px;
+    flex: 0 0 192px;
+    background: orange;
+    padding-top: 24px;
+}
+
+nav h2,
+article h2 {
+    margin: 0;
+    color: blue;
+    text-shadow: 3px 3px 5px skyblue;
+    font: bold 25px "Malgun Gothic", sans-serif;
+}
+
+nav ul {
+    margin: 22px 0 0;
+    padding: 2px 0 2px 55px;
+    border: 1px dotted black;
+}
+
+main {
+    flex: 1;
+    background: lightblue;
+    overflow: hidden;
+}
+
+article {
+    padding: 26px 0 28px;
+    border-bottom: 1px solid #9aa7b1;
+}
+
+article h2 {
+    padding-bottom: 22px;
+    border-bottom: 1px solid #9aa7b1;
+}
+
+#gwansim ul {
+    margin-top: 22px;
+    line-height: 1.45;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#chwmi table {
+    width: 100%;
+    margin-top: 12px;
+    font-family: Arial, sans-serif;
+}
+
+#chwmi td {
+    border: 1px solid #8b9aa5;
+    text-align: center;
+    padding: 6px;
+    background: #eef6ff;
+}
+
+#chwmi img {
+    width: 240px;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+#siganpo table {
+    width: 100%;
+    table-layout: fixed;
+    margin-top: 12px;
+    font-family: "Malgun Gothic", sans-serif;
+}
+
+#siganpo th,
+#siganpo td {
+    height: 34px;
+    border: 1px solid #8b9aa5;
+    text-align: center;
+    padding: 0 4px;
+    font-size: 14px;
+    word-break: keep-all;
+}
+
+#siganpo th,
+#siganpo tbody td:first-child {
+    background: #fff2b3;
+}
+
+#siganpo tbody tr:nth-child(odd) td:not(:first-child) {
+    background: #acd7e3;
+}
+
+#siganpo tbody tr:nth-child(even) td:not(:first-child) {
+    background: #eef6ff;
+}
+
+.class-pink {
+    background: #f8d7da !important;
+}
+
+.class-blue {
+    background: #d9ecfb !important;
+}
+
+.class-green {
+    background: #dff3df !important;
+}
+
+.class-yellow {
+    background: #fff0c7 !important;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: orange;
+}
+
+footer {
+    height: 96px;
+    background: plum;
+    border-radius: 8px 8px 0 0;
+    padding: 12px 0 0 18px;
+}
+
+footer p {
+    margin-top: 20px;
+    font-style: italic;
+}
